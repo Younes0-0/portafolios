@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../layouts/Layout.astro";
+---
+
+<BaseLayout>
+  <section class="mt-10 max-w-6xl mx-auto px-4">
+    <h1 class="text-4xl font-bold mb-10 text-center text-gray-800">Proyectos</h1>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- Proyecto 1: ConduceYa -->
+      <article class="bg-gradient-to-br from-white to-gray-50 rounded-3xl shadow-lg p-6 border border-gray-200 hover:shadow-2xl transition-all duration-300">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="text-4xl">🚗</div>
+          <h2 class="text-2xl font-bold text-gray-800">ConduceYa</h2>
+        </div>
+        
+        <p class="text-gray-600 text-base mb-4">
+          Plataforma web para gestión de autoescuelas: alumnos, clases, pagos y exámenes, todo en un sistema digital completo.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-700 mb-4">
+          <div>🧩 Django REST API + Astro frontend</div>
+          <div>🔐 JWT + panel de administración</div>
+          <div>📅 Gestión de citas y clases</div>
+          <div>📄 Documentos, roles y permisos</div>
+        </div>
+
+        <a href="#" class="inline-block mt-2 text-sm font-medium text-blue-600 hover:underline">Ver más detalles →</a>
+      </article>
+
+      <!-- Proyecto 2: Automatización con n8n -->
+      <article class="bg-gradient-to-br from-white to-gray-50 rounded-3xl shadow-lg p-6 border border-gray-200 hover:shadow-2xl transition-all duration-300">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="text-4xl">🤖</div>
+          <h2 class="text-2xl font-bold text-gray-800">Automatización con n8n</h2>
+        </div>
+        
+        <p class="text-gray-600 text-base mb-4">
+          Flujos automáticos para enviar WhatsApps y gestionar alumnos mediante hojas Excel y Webhooks.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-700 mb-4">
+          <div>📊 Lectura de Excel en tiempo real</div>
+          <div>📱 WhatsApp automático vía webhook</div>
+          <div>🔄 Flujos personalizados por profesor</div>
+          <div>🧠 Lógica condicional y filtros</div>
+        </div>
+
+        <a href="#" class="inline-block mt-2 text-sm font-medium text-blue-600 hover:underline">Ver más detalles →</a>
+      </article>
+
+    </div>
+  </section>
+</BaseLayout>
