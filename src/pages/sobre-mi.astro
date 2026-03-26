@@ -2,29 +2,29 @@
 import BaseLayout from "../layouts/Layout.astro";
 ---
 
-<BaseLayout>
-  <section class="mt-10 max-w-3xl mx-auto text-gray-800">
-    <h1 class="text-4xl font-bold mb-6 text-center">Sobre mí</h1>
+<BaseLayout title="Sobre mí | Younes Demraoui" description="Perfil profesional de Younes Demraoui.">
+  <section class="py-8 md:py-12">
+    <h1 class="section-title mb-6 text-center">Sobre mí</h1>
 
-    <p class="mb-4 text-lg leading-relaxed">
-      Soy <strong>Younes Demraoui</strong>, desarrollador web con formación en <em>Desarrollo de Aplicaciones Web (DAW)</em> y experiencia en proyectos reales como <strong>ConduceYa</strong>, una plataforma de gestión para autoescuelas.
-    </p>
+    <div class="soft-card mx-auto max-w-4xl p-6 md:p-10">
+      <p class="mb-4 text-lg leading-relaxed text-slate-700">
+        Soy <strong>Younes Demraoui</strong>, desarrollador web con formación en <em>Desarrollo de Aplicaciones Web (DAW)</em>
+        y experiencia construyendo productos como <strong>ConduceYa</strong>, una plataforma de gestión para autoescuelas.
+      </p>
 
-    <p class="mb-4 text-lg leading-relaxed">
-      Además, soy <strong>formador CAP</strong> y poseo todos los permisos profesionales (B, C, D, C+E, D+E…). Trabajo actualmente en una autoescuela y también me interesa la conducción profesional.
-    </p>
+      <p class="mb-4 text-lg leading-relaxed text-slate-700">
+        También soy <strong>formador CAP</strong> y tengo permisos profesionales de conducción (B, C, D, C+E y D+E), lo que me
+        permite combinar visión técnica con conocimiento real del sector del transporte y la formación.
+      </p>
 
-    <p class="mb-4 text-lg leading-relaxed">
-      Me apasiona la tecnología, la automatización de procesos y ayudar a otros a formarse. Busco combinar mis conocimientos técnicos con mi experiencia en el sector del transporte para crear soluciones útiles y prácticas.
-    </p>
+      <p class="text-lg leading-relaxed text-slate-700">
+        Mi objetivo es crear herramientas digitales que ahorren tiempo, mejoren procesos y faciliten el trabajo diario.
+      </p>
 
-    <div class="mt-6 flex flex-wrap justify-center gap-4">
-      <a href="/proyectos" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">
-        Ver mis proyectos
-      </a>
-      <a href="/contacto" class="border border-blue-600 text-blue-600 px-5 py-2 rounded-lg hover:bg-blue-100 transition">
-        Contactar
-      </a>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="/proyectos" class="primary-btn">Ver mis proyectos</a>
+        <a href="/contacto" class="secondary-btn">Contactar</a>
+      </div>
     </div>
   </section>
 </BaseLayout>
